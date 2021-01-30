@@ -3,7 +3,7 @@
 This project makes use of Azure to configure a cloud-based machine learning production model, deploy it, and consume it. In this project we will also create, publish, and consume a pipeline.
 
 ## 1. Architectural Diagram
-<img src="starter_files/images/project architecture.JPG")
+<img src="starter_files/images/project architecture.JPG">
 
 In the next section I'm going to describe the main steps in the project by using screenshoots on each one.
 
