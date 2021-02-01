@@ -49,7 +49,7 @@ Additionally, we can review the information provided by the application insights
 
 ### 2.6 Swagger Documentation
 
-After deploying the model and enabling logging, the model can be consumed using swagger. Firstly, we need to download the swagger.json file from the details of the deployed model and stored it in the swagger directory. Besides, we need to set the port as 9000 in the swagger bash file if we don't have permissions on port 80. Then, we can execute both the swagger.sh file and the serve.py file. 
+After deploying the model and enabling logging, the API documentation can be created using swagger. Firstly, we need to download the swagger.json file from the details of the deployed model and stored it in the swagger directory. Besides, we need to set the port as 9000 in the swagger bash file if we don't have permissions on port 80. Then, we can execute both the swagger.sh file and the serve.py file. 
 <img src=".\starter_files\images\Swagger and Serve.jpg">
 
 Next, we can test if swagger is running on localhost by using the following url http://localhost:9000.
