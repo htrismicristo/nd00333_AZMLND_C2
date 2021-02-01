@@ -65,17 +65,27 @@ To interact with the deployed model, it's necessary to provide the URI and the k
 <img src=".\starter_files\images\JSON Output.jpg">
 
 ### 2.8 Creation, consumption and publication of the model pipeline
-In order to create, consume and publish the pipeline we need the previously downloaded config.json file and the notebook provided in the starter files. First, the notebook should be uploaded to Azure ML studio, and next, we need to modify the notebook with the experiment, model and endpoint specifications.
+In order to create, consume and publish the pipeline we need the previously downloaded config.json file and the notebook provided in the starter files. First, the notebook should be uploaded to Azure ML studio, and next, we need to modify the notebook with the experiment and model specifications.
+<img src=".\starter_files\images\Pipeline Run.jpg">
+<br> Once the pipeline is submitted, it runs for several minutes. 
+<img src=".\starter_files\images\Data and Training.jpg">
+<br> After a while, the pipeline run is completed without problems, along with its REST endpoint.
+<img src=".\starter_files\images\Pipeline Completed.jpg">
+<img src=".\starter_files\images\Pipeline Endpoint.jpg">
+<br> We can test the status of the pipeline endpoint directly from the azure notebook.
+<img src=".\starter_files\images\Pipeline Endpoint Status.jpg"> 
+<br> Finally, by publishing the pipeline we enable the REST endpoint to rerun it with any HTTP library.
+<img src=".\starter_files\images\Pipeline Rerun.jpg"> 
+<img src=".\starter_files\images\Pipeline Rerun2.jpg"> 
 
 
 ## Screen Recording
 
 - Project ----------->  
-- Notebooks ------------->
-- Endpoints --------->
+
 
 ## Standout Suggestions
-- A deep data cleaning and feature engineering process before training the model could improve the prediction accuracy of the final model.
+- A deep data cleaning and feature engineering process before training the model could improve its prediction accuracy.
 - An ONNX format would make the model more portable and easily shareable across different environments.
 - The model can be deployed as a web application allowing internal and external user interaction and consumption.
 
