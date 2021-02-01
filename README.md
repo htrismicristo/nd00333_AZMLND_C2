@@ -2,9 +2,11 @@
 
 ## Project Overview
 
-This project makes use of Azure to configure a cloud-based machine learning production model, deploy it, and consume it. First, an AutoML experiment was created using the specifications given and the dataset provided. Next, the model with the highest accuracy was deployed, it was the VotingEnsemble model with an accuracy of 0.92. After that, logging was enabled for the model and the documentation for the model API was created as well. Finally, the model was consumed by using the URI and the key from the gith bash console and two predictions were made as it can be seen in section 2.7 . 
+This project shows how to operationalize an ML project from two different approaches:
 
-In second place, an Azure pipeline was created, published and consumed. First, a notebook with the code required to submit the pipeline was uploaded to azure. After that, some specifications were modified to execute the notebook successfully. Once the pipeline was created and published, the rest API of the pipeline was used to rerun it and testing the endpoint.
+ The first one makes use of Azure ML Studio to configure a cloud-based machine learning production model, deploy it, and consume it. First, an AutoML experiment was created using the specifications given and the dataset provided. Next, AutoML tries different models and configurations and the model with the highest accuracy is deployed, in this case, it was the VotingEnsemble model with an accuracy of 0.92. After that, logging was enabled for the model and the API documentation API was created as well. Finally, the model was consumed by using the URI and the key from the gith bash console. For that, two different set of individual characteristics were given to the model's endpoint through the POST HTTP method in order to make two different predictions. The output can be seen in section 2.7. 
+
+The second one makes use of the Azure Python SDK to create, publish and consume a pipeline. First, a notebook with the code required to submit the pipeline was uploaded to azure ML Studio. After that, some specifications were modified to run the notebook successfully on the same compute cluster created for the first approach. Once the pipeline was created and examined, metrics of all child runs were retrieved and the best model was tested using a confusion matrix. Finally, the pipeline was published and the rest API of the pipeline was used to rerun it and testing the endpoint.
 
 
 ## 1. Architectural Diagram
