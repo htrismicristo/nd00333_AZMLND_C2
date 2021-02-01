@@ -3,22 +3,22 @@ import json
 
 # URL for the web service, should be similar to:
 # 'http://8530a665-66f3-49c8-a953-b82a2d312917.eastus.azurecontainer.io/score'
-scoring_uri = ''
+scoring_uri = 'http://ad7a17c8-028e-4bfe-a885-ecb27280e3e0.southcentralus.azurecontainer.io/score'
 # If the service is authenticated, set the key or token
-key = ''
+key = 'JOvCa1x8WK3epHml5svM1EgsZK73EnbR'
 
 # Two sets of data to score, so we get two results back
 data = {"data":
         [
           {
-            "age": 17,
+            "age": 27,
             "campaign": 1,
             "cons.conf.idx": -46.2,
             "cons.price.idx": 92.893,
             "contact": "cellular",
             "day_of_week": "mon",
             "default": "no",
-            "duration": 971,
+            "duration": 2000,
             "education": "university.degree",
             "emp.var.rate": -1.8,
             "euribor3m": 1.299,

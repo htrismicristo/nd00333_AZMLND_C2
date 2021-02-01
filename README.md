@@ -4,6 +4,7 @@
 
 This project makes use of Azure to configure a cloud-based machine learning production model, deploy it, and consume it. Additionally an Azure pipeline was created, published and consumed.
 
+
 ## 1. Architectural Diagram
 
 The following picture describe briefly the main steps taken to complete the project.
@@ -11,6 +12,7 @@ The following picture describe briefly the main steps taken to complete the proj
 <img src=".\starter_files\images\project architecture.jpg">
 
 In the next section, each step is described in detail by using screenshoots.
+
 
 ## 2. Key Steps
 
@@ -79,12 +81,13 @@ In order to create, consume and publish the pipeline we need the previously down
 <img src=".\starter_files\images\Pipeline Rerun2.jpg"> 
 
 
-## Screen Recording
+## 3. Screen Recording
 
-- Project ----------->  
+- Experiment Overview ----------->  https://youtu.be/rK20vW2XtpM
+- Pipeline Overview ----------->  https://youtu.be/2s-_oR2sZNA
 
 
-## Standout Suggestions
+## 4. Standout Suggestions
 - A deep data cleaning and feature engineering process before training the model could improve its prediction accuracy.
 - An ONNX format would make the model more portable and easily shareable across different environments.
 - The model can be deployed as a web application allowing internal and external user interaction and consumption.
