@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project makes use of Azure to configure a cloud-based machine learning production model, deploy it, and consume it. First, an AutoML experiment was created using the specifications given and the dataset provided. Next, the model with the highest accuracy was deployed, it was the VotingEnsemble model with an accuracy of 0.92. After that, logging was enabled for the model and the documentation for the model API was created as well. Finally, the model was consumed by using the URI and the key from the gith bash console and two predictions were made as it can be seen in the screenshot  
+This project makes use of Azure to configure a cloud-based machine learning production model, deploy it, and consume it. First, an AutoML experiment was created using the specifications given and the dataset provided. Next, the model with the highest accuracy was deployed, it was the VotingEnsemble model with an accuracy of 0.92. After that, logging was enabled for the model and the documentation for the model API was created as well. Finally, the model was consumed by using the URI and the key from the gith bash console and two predictions were made as it can be seen in section 2.7 . 
 
-Additionally, an Azure pipeline was created, published and consumed.
+In second place, an Azure pipeline was created, published and consumed. First, a notebook with the code required to submit the pipeline was uploaded to azure. After that, some specifications were modified to execute the notebook successfully. Once the pipeline was created and published, the rest API of the pipeline was used to rerun it and testing the endpoint.
 
 
 ## 1. Architectural Diagram
