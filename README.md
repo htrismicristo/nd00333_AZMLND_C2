@@ -87,12 +87,11 @@ In order to create, consume and publish the pipeline we need the previously down
 
 ## 3. Screen Recording
 
-- Experiment Overview ----------->  https://youtu.be/rK20vW2XtpM
-- Pipeline Overview ----------->  https://youtu.be/2s-_oR2sZNA
+- Experiment and Pipeline Overview -----------> https://youtu.be/KhMJNfZV4dg  
 
 
-## 4. Standout Suggestions
-- A deep data cleaning and feature engineering process before training the model could improve its prediction accuracy.
+## 4. Future Improvement Suggestions
+- A deep data cleaning and feature engineering process before training the model could improve its prediction accuracy, since the data appears to be highly imbalanced.
 - An ONNX format would make the model more portable and easily shareable across different environments.
 - The model can be deployed as a web application allowing internal and external user interaction and consumption.
 
